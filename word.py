@@ -1,25 +1,23 @@
 def alternatingCaps(s:str):
-    l=list(s)
-    #print(l)
-    new_l=[]
-    for i ,v in enumerate(l):
-        if v == ' ':
+
+    list_of_s=list(s)
+    list_of_s_teotal=[]
+    for i in list_of_s:
+        if i==' ':
             pass
         else:
-            new_l.append(v)
-    list_of_up=[]
-    list_of_w=new_l[1::2]        
-    for i in list_of_w:
+            list_of_s_teotal.append(i)
+    list_of_s_teotal_finall=list_of_s_teotal[::2]
+    #print(list_of_s_teotal_finall)
+    list_of_s_teotal_finall_up=[]
+    for i in list_of_s_teotal_finall:
+        list_of_s_teotal_finall_up.append(i.upper())
         #print(i.upper())
-        list_of_up.append(i.upper())
-
-    #print(list_of_up)
-    for i ,v in enumerate(l):
-        if v.upper() in list_of_up:
-            #print(i,v.upper())
-            l[i]=v.upper()
-    
-    print(''.join(l))    
+    for i,v in enumerate(list_of_s):
+        if v.upper() in list_of_s_teotal_finall_up:
+            #print(i,v)
+            list_of_s[i]=v.upper()
+    print(''.join(list_of_s))
 
 alternatingCaps("Hello") #➞ "HeLlO"
 
