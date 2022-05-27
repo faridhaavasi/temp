@@ -12,3 +12,5 @@ class Circle:
 new_cir=Circle(11)
 print(new_cir.getArea())
 print(new_cir.getPerimeter())
+
+#link of task : https://backendbaz.ir/practice/4465/
