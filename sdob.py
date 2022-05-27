@@ -23,3 +23,4 @@ print(letterCheck(["trances", "nectar"])) #➞ true
 print(letterCheck(["compadres", "DRAPES"]))# ➞ true
 
 print(letterCheck(["parses", "parsecs"]))# ➞ false
+# ink task --> https://backendbaz.ir/practice/4467/
