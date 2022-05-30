@@ -1,4 +1,4 @@
-s='im farid im very happy im hangry very very sooo'
+s='im farid im very happy im hangry very very sooon'
 st=''
 l_word=s.split()
 for i in l_word:
